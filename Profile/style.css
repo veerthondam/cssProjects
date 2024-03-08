@@ -1,0 +1,20 @@
+html{
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+:root{
+    --teal: #031634;
+    --cobalt: #033649;
+    --tuquoise: #066464;
+    --beige: #CEB280;
+    --gold: #EADDCC;
+
+}
+body{
+    background-color: var(--teal);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
